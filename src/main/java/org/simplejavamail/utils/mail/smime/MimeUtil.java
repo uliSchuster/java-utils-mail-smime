@@ -1,7 +1,7 @@
 package org.simplejavamail.utils.mail.smime;
 
-import jakarta.mail.MessagingException;
-import jakarta.mail.internet.MimeBodyPart;
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeBodyPart;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

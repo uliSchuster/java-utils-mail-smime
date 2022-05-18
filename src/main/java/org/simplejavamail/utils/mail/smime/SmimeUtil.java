@@ -1,13 +1,13 @@
 package org.simplejavamail.utils.mail.smime;
 
 import com.sun.mail.smtp.SMTPMessage;
-import jakarta.activation.CommandMap;
-import jakarta.activation.MailcapCommandMap;
-import jakarta.mail.Header;
-import jakarta.mail.MessagingException;
-import jakarta.mail.Multipart;
-import jakarta.mail.Session;
-import jakarta.mail.internet.*;
+import javax.activation.CommandMap;
+import javax.activation.MailcapCommandMap;
+import javax.mail.Header;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.Session;
+import javax.mail.internet.*;
 import org.bouncycastle.asn1.ASN1EncodableVector;
 import org.bouncycastle.asn1.ASN1ObjectIdentifier;
 import org.bouncycastle.asn1.cms.AttributeTable;

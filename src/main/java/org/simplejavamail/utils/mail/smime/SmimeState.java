@@ -1,7 +1,7 @@
 package org.simplejavamail.utils.mail.smime;
 
-import jakarta.mail.internet.MimeMultipart;
-import jakarta.mail.internet.MimePart;
+import javax.mail.internet.MimeMultipart;
+import javax.mail.internet.MimePart;
 
 /**
  * The {@code SmimeState} of a {@link MimePart} or {@link MimeMultipart} is
